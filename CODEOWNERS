@@ -1,5 +1,8 @@
 # Fallback unless later rule overrides it.
-@prometheus/default-prometheus-maintainers
+* @prometheus/default-prometheus-maintainers
+# Testing subsystem ownership (team member designated for auto assignment)
+/tsdb @krajorama @prometheus/default-prometheus-maintainers
+# Testing subsystem ownership (team member never auto assigned)
+/promql @roidelapluie @prometheus/default-prometheus-maintainers
 # Testing SD onwership.
 /discovery/acme/ @ldufr @prometheus/default-prometheus-maintainers
-

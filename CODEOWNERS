@@ -1,0 +1,5 @@
+# Fallback unless later rule overrides it.
+@prometheus/default-prometheus-maintainers
+# Testing SD onwership.
+/discovery/acme/ @ldufr @prometheus/default-prometheus-maintainers
+
